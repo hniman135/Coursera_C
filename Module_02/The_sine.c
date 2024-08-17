@@ -12,5 +12,5 @@ int main()
     printf ("Enter a value for x (0 <= x <= 1): \n");
     scanf("%lf", &x);
     sine = sin(x);
-    printf ("The sine of %lf is %lf\n", x, sine);
+    printf ("The sine of %lf is %.4lf\n", x, sine);
 }
